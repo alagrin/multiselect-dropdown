@@ -1,0 +1,44 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+li {
+    display: flex;
+}
+
+form {
+    display: block;
+    height: 800px;
+    width: auto;
+}
+
+#lead-src {
+    /* width: 30%; */
+    height: 40px;
+    padding-bottom: 0;
+}
+
+#dropdown {
+    display: block;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#btn {
+    height: 40px;
+}
+
+#checked-items {
+    position: relative;
+    margin-left: 20px;
+}
